@@ -24,4 +24,8 @@ public class Disciplina {
 		this.codigo = codigo;
 	}
 	
+	public String imprimirDisciplina() {
+		return "Nome: " + this.getNome() + " | Codigo: " + this.getCodigo() ;
+	}
+	
 }

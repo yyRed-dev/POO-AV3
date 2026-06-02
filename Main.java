@@ -25,7 +25,15 @@ public class Main {
 		
 		ListaDisciplina ld = new ListaDisciplina();
 		
+		ld.adicionarDisciplina(d3);
+		ld.adicionarDisciplina(d2);
+		ld.adicionarDisciplina(d1);
 		
+		ld.imprimirDisciplinas();
+		
+		ld.removerDisciplina(d1);
+		
+		ld.imprimirDisciplinas();
 		
 		/*try {
 			
